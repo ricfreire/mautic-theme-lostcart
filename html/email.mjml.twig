@@ -1,0 +1,113 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Roboto, Arial, sans-serif"></mj-all>
+      <mj-text line-height="24px" color="#525252" font-weight="400" padding="0px" font-size="16px" />
+    </mj-attributes>
+    <mj-style>
+    p { margin: 0px 0px 0px 0px !important; }
+    .lc-text a { color: unset; text-decoration: underline; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#e5f0ef">
+    <!-- Viewtext -->
+    <mj-section padding="30px 30px">
+      <mj-column>
+        <mj-text css-class="lc-text" color="#537874" font-size="14px" align="center"> {webview_text} </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Header -->
+    <mj-section padding="30px 40px 20px 40px" background-color="#148F91" border-radius="16px 16px 0px 0px">
+      <mj-column vertical-align="middle">
+        <mj-image href="https://crafting.email" align="center" height="30px" padding="0px" width="125px" src="{{ getAssetUrl('themes/'~template~'/assets/logo.png', null, null, true ) }}"></mj-image>
+        <mj-spacer height="50px"></mj-spacer>
+        <mj-text css-class="lc-text" align="center" font-size="34px" font-weight="500" color="#fff" line-height="40px">Did you lost your cart?</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Hero -->
+    <mj-section padding="0px">
+      <mj-column padding="0px">
+        <mj-image fluid-on-mobile="true" padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/hero.png', null, null, true ) }}"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- Content Top -->
+    <mj-section background-color="#fff" padding="20px 30px 40px 30px">
+      <mj-column>
+        <mj-text css-class="lc-text" align="center">
+          <p>Hey, we noticed you left something behind!</p>
+          <p>Your cart is still here, waiting patiently for you:</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Cart -->
+    <!-- Cart > Product 1 -->
+    <mj-section padding="14px 30px" background-color="#F6F6F6">
+      <mj-column width="15%" vertical-align="middle">
+        <mj-image align="left" padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/product1.png', null, null, true ) }}" width="70px"></mj-image>
+      </mj-column>
+      <mj-column width="2%">
+        <mj-spacer height="18px"></mj-spacer>
+      </mj-column>
+      <mj-column width="63%" vertical-align="middle">
+        <mj-text css-class="lc-text" font-size="14px"><a href="#">Headsets</a></mj-text>
+      </mj-column>
+      <mj-column width="10%" vertical-align="middle">
+        <mj-text font-size="14px">x1</mj-text>
+      </mj-column>
+      <mj-column width="10%" vertical-align="middle">
+        <mj-text font-size="14px">119.00€</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Cart > Product 2 -->
+    <mj-section padding="14px 30px" background-color="#F6F6F6">
+      <mj-column width="15%" vertical-align="middle">
+        <mj-image align="left" padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/product2.png', null, null, true ) }}" width="70px"></mj-image>
+      </mj-column>
+      <mj-column width="2%">
+        <mj-spacer height="18px"></mj-spacer>
+      </mj-column>
+      <mj-column width="63%" vertical-align="middle">
+        <mj-text css-class="lc-text" font-size="14px"><a href="#">Beige Blanket</a></mj-text>
+      </mj-column>
+      <mj-column width="10%" vertical-align="middle">
+        <mj-text font-size="14px">x1</mj-text>
+      </mj-column>
+      <mj-column width="10%" vertical-align="middle">
+        <mj-text font-size="14px">19.00€</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Cart > Price -->
+    <mj-section padding="14px 30px" background-color="#f1f1f1">
+      <mj-column width="90%" vertical-align="middle">
+        <mj-text font-size="14px" font-weight="600">Total</mj-text>
+      </mj-column>
+      <mj-column width="10%" vertical-align="middle">
+        <mj-text font-size="14px" font-weight="600">138.00€</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Content Bottom -->
+    <mj-section background-color="#fff" padding="40px 30px 40px 30px" border-radius="0px 0px 16px 16px">
+      <mj-column>
+        </mj-text>
+        <mj-text css-class="lc-text" align="center">
+          <p>As a little thank you, here's a <b>5% discount</b> to finish your order.</p>
+          <p>Hurry, before they’re gone!</p>
+        </mj-text>
+        <mj-spacer height="40px"></mj-spacer>
+        <mj-button href="https://crafting.email" border="1px solid #ab2f2f" background-color="#BE3434" font-size="16px" inner-padding="14px 34px" border-radius="10px">Finish your order</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Footer -->
+    <mj-section padding="30px 0px">
+      <mj-column>
+        <mj-text css-class="lc-text" color="#537874" font-size="16px" align="center" font-weight="500">Checkout issues? We’re just a message away.</mj-text>
+        <mj-spacer height="12px"></mj-spacer>
+        <mj-text css-class="lc-text" color="#537874" font-size="16px" align="center">Contact us at <a href="#">help@crafting.email</a> or call <a href="#">1100000</a>, Monday to Friday, 9:00 to 18:00.
+        </mj-text>
+        <mj-spacer height="32px"></mj-spacer>
+        <mj-text css-class="lc-text" color="#537874" font-size="14px" align="center">Crafted with love by <a href="https://github.com/ricfreire">Ricardo Freire</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
