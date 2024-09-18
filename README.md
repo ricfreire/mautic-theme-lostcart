@@ -2,7 +2,7 @@
 
 ![Thumbnail of Lost Cart](https://github.com/user-attachments/assets/8a027d14-04bf-4092-ae71-9bea0a04792d)
 
-xx
+Lost Cart email theme is designed to help your business recover abandoned carts with a visually striking reminder and a discount incentive. With a clean design, it draws attention to forgotten items, encouraging customers to finalize their purchase. This simple, effective template boosts conversions and integrates seamlessly with your email marketing strategy.
 
 ### 📜 License
 
